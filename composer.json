@@ -1,0 +1,24 @@
+{
+    "name": "croogo/plugin-installer",
+    "description": "A composer installer for Croogo 3.0+ core plugins.",
+    "type": "composer-installer",
+    "license": "MIT",
+    "require-dev": {
+        "composer/composer": "1.0.*@dev",
+        "cakephp/cakephp-codesniffer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Croogo\\Composer\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Croogo\\Test\\Composer\\": "tests"
+        }
+    },
+    "extra": {
+        "class": "Croogo\\Composer\\Installer\\PluginInstaller"
+    },
+    "minimum-stability": "dev"
+}
