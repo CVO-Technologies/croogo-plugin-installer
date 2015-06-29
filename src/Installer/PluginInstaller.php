@@ -1,6 +1,6 @@
 <?php
 
-namespace Croogo\Composer\Installer\PluginInstaller;
+namespace Croogo\Composer\Installer;
 
 use Composer\Installer\LibraryInstaller;
 use Composer\Script\Event;
